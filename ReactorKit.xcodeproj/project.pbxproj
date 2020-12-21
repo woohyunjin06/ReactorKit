@@ -7,53 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB76F400258E78CA00DD1761 /* ReactorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB76F3FE258E78CA00DD1761 /* ReactorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB76F417258E78FE00DD1761 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76F40C258E78FE00DD1761 /* View.swift */; };
-		DB76F418258E78FE00DD1761 /* StateRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76F40D258E78FE00DD1761 /* StateRelay.swift */; };
-		DB76F419258E78FE00DD1761 /* StoryboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76F40E258E78FE00DD1761 /* StoryboardView.swift */; };
-		DB76F41A258E78FE00DD1761 /* ActionSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76F40F258E78FE00DD1761 /* ActionSubject.swift */; };
-		DB76F41B258E78FE00DD1761 /* Reactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76F410258E78FE00DD1761 /* Reactor.swift */; };
-		DB76F41C258E78FE00DD1761 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76F411258E78FE00DD1761 /* Stub.swift */; };
-		DB76F41D258E78FE00DD1761 /* Exports.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76F412258E78FE00DD1761 /* Exports.swift */; };
-		DB76F41E258E78FE00DD1761 /* IdentityHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76F413258E78FE00DD1761 /* IdentityHashable.swift */; };
-		DB76F41F258E78FE00DD1761 /* IdentityEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76F414258E78FE00DD1761 /* IdentityEquatable.swift */; };
-		DB76F436258E7A2E00DD1761 /* ReactorKitRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = DB76F434258E7A2E00DD1761 /* ReactorKitRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB76F43A258E7A5E00DD1761 /* ReactorKitRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = DB76F408258E78FE00DD1761 /* ReactorKitRuntime.m */; };
-		DB76F442258E7BDC00DD1761 /* ReactorKitRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB76F432258E7A2E00DD1761 /* ReactorKitRuntime.framework */; };
 		DB76F481258E83A100DD1761 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB76F480258E83A100DD1761 /* RxSwift.framework */; };
 		DB76F494258E862E00DD1761 /* WeakMapTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB76F493258E862E00DD1761 /* WeakMapTable.framework */; };
+		DB9041D425909B1E00305C9A /* ReactorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9041D325909B1E00305C9A /* ReactorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB9041E725909E5D00305C9A /* ReactorKitRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9041DB25909E5D00305C9A /* ReactorKitRuntime.m */; };
+		DB9041E825909E5D00305C9A /* ReactorKitRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9041DC25909E5D00305C9A /* ReactorKitRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB9041E925909E5D00305C9A /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041DE25909E5D00305C9A /* View.swift */; };
+		DB9041EA25909E5D00305C9A /* StateRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041DF25909E5D00305C9A /* StateRelay.swift */; };
+		DB9041EB25909E5D00305C9A /* StoryboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041E025909E5D00305C9A /* StoryboardView.swift */; };
+		DB9041EC25909E5D00305C9A /* ActionSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041E125909E5D00305C9A /* ActionSubject.swift */; };
+		DB9041ED25909E5D00305C9A /* Reactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041E225909E5D00305C9A /* Reactor.swift */; };
+		DB9041EE25909E5D00305C9A /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041E325909E5D00305C9A /* Stub.swift */; };
+		DB9041EF25909E5D00305C9A /* Exports.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041E425909E5D00305C9A /* Exports.swift */; };
+		DB9041F025909E5D00305C9A /* IdentityHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041E525909E5D00305C9A /* IdentityHashable.swift */; };
+		DB9041F125909E5D00305C9A /* IdentityEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041E625909E5D00305C9A /* IdentityEquatable.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DB76F444258E7BDC00DD1761 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB76F3F2258E78CA00DD1761 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB76F431258E7A2E00DD1761;
-			remoteInfo = ReactorKitRuntime;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DB76F3FB258E78CA00DD1761 /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB76F3FE258E78CA00DD1761 /* ReactorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactorKit.h; sourceTree = "<group>"; };
 		DB76F3FF258E78CA00DD1761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB76F408258E78FE00DD1761 /* ReactorKitRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactorKitRuntime.m; sourceTree = "<group>"; };
-		DB76F40A258E78FE00DD1761 /* ReactorKitRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactorKitRuntime.h; sourceTree = "<group>"; };
-		DB76F40C258E78FE00DD1761 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		DB76F40D258E78FE00DD1761 /* StateRelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateRelay.swift; sourceTree = "<group>"; };
-		DB76F40E258E78FE00DD1761 /* StoryboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardView.swift; sourceTree = "<group>"; };
-		DB76F40F258E78FE00DD1761 /* ActionSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSubject.swift; sourceTree = "<group>"; };
-		DB76F410258E78FE00DD1761 /* Reactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reactor.swift; sourceTree = "<group>"; };
-		DB76F411258E78FE00DD1761 /* Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
-		DB76F412258E78FE00DD1761 /* Exports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exports.swift; sourceTree = "<group>"; };
-		DB76F413258E78FE00DD1761 /* IdentityHashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityHashable.swift; sourceTree = "<group>"; };
-		DB76F414258E78FE00DD1761 /* IdentityEquatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityEquatable.swift; sourceTree = "<group>"; };
-		DB76F432258E7A2E00DD1761 /* ReactorKitRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactorKitRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB76F434258E7A2E00DD1761 /* ReactorKitRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactorKitRuntime.h; sourceTree = "<group>"; };
-		DB76F435258E7A2E00DD1761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB76F480258E83A100DD1761 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		DB76F493258E862E00DD1761 /* WeakMapTable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeakMapTable.framework; path = Carthage/Build/iOS/WeakMapTable.framework; sourceTree = "<group>"; };
+		DB9041D325909B1E00305C9A /* ReactorKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactorKit.h; sourceTree = "<group>"; };
+		DB9041DB25909E5D00305C9A /* ReactorKitRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactorKitRuntime.m; sourceTree = "<group>"; };
+		DB9041DC25909E5D00305C9A /* ReactorKitRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactorKitRuntime.h; sourceTree = "<group>"; };
+		DB9041DE25909E5D00305C9A /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		DB9041DF25909E5D00305C9A /* StateRelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateRelay.swift; sourceTree = "<group>"; };
+		DB9041E025909E5D00305C9A /* StoryboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardView.swift; sourceTree = "<group>"; };
+		DB9041E125909E5D00305C9A /* ActionSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSubject.swift; sourceTree = "<group>"; };
+		DB9041E225909E5D00305C9A /* Reactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reactor.swift; sourceTree = "<group>"; };
+		DB9041E325909E5D00305C9A /* Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		DB9041E425909E5D00305C9A /* Exports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exports.swift; sourceTree = "<group>"; };
+		DB9041E525909E5D00305C9A /* IdentityHashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityHashable.swift; sourceTree = "<group>"; };
+		DB9041E625909E5D00305C9A /* IdentityEquatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityEquatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB76F481258E83A100DD1761 /* RxSwift.framework in Frameworks */,
-				DB76F442258E7BDC00DD1761 /* ReactorKitRuntime.framework in Frameworks */,
 				DB76F494258E862E00DD1761 /* WeakMapTable.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB76F42F258E7A2E00DD1761 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				DB76F3FD258E78CA00DD1761 /* ReactorKit */,
-				DB76F433258E7A2E00DD1761 /* ReactorKitRuntime */,
 				DB76F3FC258E78CA00DD1761 /* Products */,
 				DB76F43C258E7BA600DD1761 /* Frameworks */,
 			);
@@ -91,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				DB76F3FB258E78CA00DD1761 /* ReactorKit.framework */,
-				DB76F432258E7A2E00DD1761 /* ReactorKitRuntime.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,62 +75,11 @@
 		DB76F3FD258E78CA00DD1761 /* ReactorKit */ = {
 			isa = PBXGroup;
 			children = (
-				DB76F3FE258E78CA00DD1761 /* ReactorKit.h */,
 				DB76F3FF258E78CA00DD1761 /* Info.plist */,
-				DB76F406258E78FE00DD1761 /* Sources */,
+				DB9041D325909B1E00305C9A /* ReactorKit.h */,
+				DB9041D925909E5D00305C9A /* Sources */,
 			);
 			path = ReactorKit;
-			sourceTree = "<group>";
-		};
-		DB76F406258E78FE00DD1761 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				DB76F407258E78FE00DD1761 /* ReactorKitRuntime */,
-				DB76F40B258E78FE00DD1761 /* ReactorKit */,
-			);
-			path = Sources;
-			sourceTree = SOURCE_ROOT;
-		};
-		DB76F407258E78FE00DD1761 /* ReactorKitRuntime */ = {
-			isa = PBXGroup;
-			children = (
-				DB76F408258E78FE00DD1761 /* ReactorKitRuntime.m */,
-				DB76F409258E78FE00DD1761 /* include */,
-			);
-			path = ReactorKitRuntime;
-			sourceTree = "<group>";
-		};
-		DB76F409258E78FE00DD1761 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				DB76F40A258E78FE00DD1761 /* ReactorKitRuntime.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		DB76F40B258E78FE00DD1761 /* ReactorKit */ = {
-			isa = PBXGroup;
-			children = (
-				DB76F40C258E78FE00DD1761 /* View.swift */,
-				DB76F40D258E78FE00DD1761 /* StateRelay.swift */,
-				DB76F40E258E78FE00DD1761 /* StoryboardView.swift */,
-				DB76F40F258E78FE00DD1761 /* ActionSubject.swift */,
-				DB76F410258E78FE00DD1761 /* Reactor.swift */,
-				DB76F411258E78FE00DD1761 /* Stub.swift */,
-				DB76F412258E78FE00DD1761 /* Exports.swift */,
-				DB76F413258E78FE00DD1761 /* IdentityHashable.swift */,
-				DB76F414258E78FE00DD1761 /* IdentityEquatable.swift */,
-			);
-			path = ReactorKit;
-			sourceTree = "<group>";
-		};
-		DB76F433258E7A2E00DD1761 /* ReactorKitRuntime */ = {
-			isa = PBXGroup;
-			children = (
-				DB76F434258E7A2E00DD1761 /* ReactorKitRuntime.h */,
-				DB76F435258E7A2E00DD1761 /* Info.plist */,
-			);
-			path = ReactorKitRuntime;
 			sourceTree = "<group>";
 		};
 		DB76F43C258E7BA600DD1761 /* Frameworks */ = {
@@ -166,6 +91,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DB9041D925909E5D00305C9A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DB9041DA25909E5D00305C9A /* ReactorKitRuntime */,
+				DB9041DD25909E5D00305C9A /* ReactorKit */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		DB9041DA25909E5D00305C9A /* ReactorKitRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				DB9041DB25909E5D00305C9A /* ReactorKitRuntime.m */,
+				DB9041DC25909E5D00305C9A /* ReactorKitRuntime.h */,
+			);
+			path = ReactorKitRuntime;
+			sourceTree = "<group>";
+		};
+		DB9041DD25909E5D00305C9A /* ReactorKit */ = {
+			isa = PBXGroup;
+			children = (
+				DB9041DE25909E5D00305C9A /* View.swift */,
+				DB9041DF25909E5D00305C9A /* StateRelay.swift */,
+				DB9041E025909E5D00305C9A /* StoryboardView.swift */,
+				DB9041E125909E5D00305C9A /* ActionSubject.swift */,
+				DB9041E225909E5D00305C9A /* Reactor.swift */,
+				DB9041E325909E5D00305C9A /* Stub.swift */,
+				DB9041E425909E5D00305C9A /* Exports.swift */,
+				DB9041E525909E5D00305C9A /* IdentityHashable.swift */,
+				DB9041E625909E5D00305C9A /* IdentityEquatable.swift */,
+			);
+			path = ReactorKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -173,15 +132,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB76F400258E78CA00DD1761 /* ReactorKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB76F42D258E7A2E00DD1761 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB76F436258E7A2E00DD1761 /* ReactorKitRuntime.h in Headers */,
+				DB9041D425909B1E00305C9A /* ReactorKit.h in Headers */,
+				DB9041E825909E5D00305C9A /* ReactorKitRuntime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,29 +152,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				DB76F445258E7BDC00DD1761 /* PBXTargetDependency */,
 			);
 			name = ReactorKit;
 			productName = ReactorKit;
 			productReference = DB76F3FB258E78CA00DD1761 /* ReactorKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DB76F431258E7A2E00DD1761 /* ReactorKitRuntime */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB76F437258E7A2E00DD1761 /* Build configuration list for PBXNativeTarget "ReactorKitRuntime" */;
-			buildPhases = (
-				DB76F42D258E7A2E00DD1761 /* Headers */,
-				DB76F42E258E7A2E00DD1761 /* Sources */,
-				DB76F42F258E7A2E00DD1761 /* Frameworks */,
-				DB76F430258E7A2E00DD1761 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ReactorKitRuntime;
-			productName = ReactorKitRuntime;
-			productReference = DB76F432258E7A2E00DD1761 /* ReactorKitRuntime.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -235,9 +168,6 @@
 				ORGANIZATIONNAME = ReactorKit;
 				TargetAttributes = {
 					DB76F3FA258E78CA00DD1761 = {
-						CreatedOnToolsVersion = 11.7;
-					};
-					DB76F431258E7A2E00DD1761 = {
 						CreatedOnToolsVersion = 11.7;
 					};
 				};
@@ -256,20 +186,12 @@
 			projectRoot = "";
 			targets = (
 				DB76F3FA258E78CA00DD1761 /* ReactorKit */,
-				DB76F431258E7A2E00DD1761 /* ReactorKitRuntime */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DB76F3F9258E78CA00DD1761 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB76F430258E7A2E00DD1761 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,35 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB76F41F258E78FE00DD1761 /* IdentityEquatable.swift in Sources */,
-				DB76F418258E78FE00DD1761 /* StateRelay.swift in Sources */,
-				DB76F417258E78FE00DD1761 /* View.swift in Sources */,
-				DB76F41A258E78FE00DD1761 /* ActionSubject.swift in Sources */,
-				DB76F41B258E78FE00DD1761 /* Reactor.swift in Sources */,
-				DB76F41D258E78FE00DD1761 /* Exports.swift in Sources */,
-				DB76F419258E78FE00DD1761 /* StoryboardView.swift in Sources */,
-				DB76F41E258E78FE00DD1761 /* IdentityHashable.swift in Sources */,
-				DB76F41C258E78FE00DD1761 /* Stub.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB76F42E258E7A2E00DD1761 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB76F43A258E7A5E00DD1761 /* ReactorKitRuntime.m in Sources */,
+				DB9041F125909E5D00305C9A /* IdentityEquatable.swift in Sources */,
+				DB9041EA25909E5D00305C9A /* StateRelay.swift in Sources */,
+				DB9041E925909E5D00305C9A /* View.swift in Sources */,
+				DB9041E725909E5D00305C9A /* ReactorKitRuntime.m in Sources */,
+				DB9041EC25909E5D00305C9A /* ActionSubject.swift in Sources */,
+				DB9041ED25909E5D00305C9A /* Reactor.swift in Sources */,
+				DB9041EF25909E5D00305C9A /* Exports.swift in Sources */,
+				DB9041EB25909E5D00305C9A /* StoryboardView.swift in Sources */,
+				DB9041F025909E5D00305C9A /* IdentityHashable.swift in Sources */,
+				DB9041EE25909E5D00305C9A /* Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DB76F445258E7BDC00DD1761 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DB76F431258E7A2E00DD1761 /* ReactorKitRuntime */;
-			targetProxy = DB76F444258E7BDC00DD1761 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DB76F401258E78CA00DD1761 /* Debug */ = {
@@ -438,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -453,7 +361,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.2;
+				MARKETING_VERSION = 2.1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = io.reactorKit.ReactorKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -466,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -481,58 +390,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.2;
+				MARKETING_VERSION = 2.1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = io.reactorKit.ReactorKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		DB76F438258E7A2E00DD1761 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ReactorKitRuntime/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 2.1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = io.reactorKit.ReactorKitRuntime;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DB76F439258E7A2E00DD1761 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ReactorKitRuntime/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 2.1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = io.reactorKit.ReactorKitRuntime;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -557,15 +416,6 @@
 			buildConfigurations = (
 				DB76F404258E78CA00DD1761 /* Debug */,
 				DB76F405258E78CA00DD1761 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DB76F437258E7A2E00DD1761 /* Build configuration list for PBXNativeTarget "ReactorKitRuntime" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB76F438258E7A2E00DD1761 /* Debug */,
-				DB76F439258E7A2E00DD1761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
