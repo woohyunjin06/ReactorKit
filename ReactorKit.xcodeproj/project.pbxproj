@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB2059DA2649223E008E9ED4 /* ReactorKitRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2059D92649223E008E9ED4 /* ReactorKitRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB76F481258E83A100DD1761 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB76F480258E83A100DD1761 /* RxSwift.framework */; };
 		DB76F494258E862E00DD1761 /* WeakMapTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB76F493258E862E00DD1761 /* WeakMapTable.framework */; };
 		DB9041D425909B1E00305C9A /* ReactorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9041D325909B1E00305C9A /* ReactorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB9041E725909E5D00305C9A /* ReactorKitRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9041DB25909E5D00305C9A /* ReactorKitRuntime.m */; };
-		DB9041E825909E5D00305C9A /* ReactorKitRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9041DC25909E5D00305C9A /* ReactorKitRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB9041E925909E5D00305C9A /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041DE25909E5D00305C9A /* View.swift */; };
 		DB9041EA25909E5D00305C9A /* StateRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041DF25909E5D00305C9A /* StateRelay.swift */; };
 		DB9041EB25909E5D00305C9A /* StoryboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041E025909E5D00305C9A /* StoryboardView.swift */; };
@@ -24,13 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB2059D92649223E008E9ED4 /* ReactorKitRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactorKitRuntime.h; sourceTree = "<group>"; };
 		DB76F3FB258E78CA00DD1761 /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB76F3FF258E78CA00DD1761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB76F480258E83A100DD1761 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		DB76F493258E862E00DD1761 /* WeakMapTable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeakMapTable.framework; path = Carthage/Build/iOS/WeakMapTable.framework; sourceTree = "<group>"; };
 		DB9041D325909B1E00305C9A /* ReactorKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactorKit.h; sourceTree = "<group>"; };
 		DB9041DB25909E5D00305C9A /* ReactorKitRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactorKitRuntime.m; sourceTree = "<group>"; };
-		DB9041DC25909E5D00305C9A /* ReactorKitRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactorKitRuntime.h; sourceTree = "<group>"; };
 		DB9041DE25909E5D00305C9A /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		DB9041DF25909E5D00305C9A /* StateRelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateRelay.swift; sourceTree = "<group>"; };
 		DB9041E025909E5D00305C9A /* StoryboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardView.swift; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 		DB9041DA25909E5D00305C9A /* ReactorKitRuntime */ = {
 			isa = PBXGroup;
 			children = (
+				DB2059D92649223E008E9ED4 /* ReactorKitRuntime.h */,
 				DB9041DB25909E5D00305C9A /* ReactorKitRuntime.m */,
-				DB9041DC25909E5D00305C9A /* ReactorKitRuntime.h */,
 			);
 			path = ReactorKitRuntime;
 			sourceTree = "<group>";
@@ -133,7 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB9041D425909B1E00305C9A /* ReactorKit.h in Headers */,
-				DB9041E825909E5D00305C9A /* ReactorKitRuntime.h in Headers */,
+				DB2059DA2649223E008E9ED4 /* ReactorKitRuntime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
