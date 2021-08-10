@@ -3,13 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DB2059DA2649223E008E9ED4 /* ReactorKitRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2059D92649223E008E9ED4 /* ReactorKitRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB76F481258E83A100DD1761 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB76F480258E83A100DD1761 /* RxSwift.framework */; };
-		DB76F494258E862E00DD1761 /* WeakMapTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB76F493258E862E00DD1761 /* WeakMapTable.framework */; };
 		DB9041D425909B1E00305C9A /* ReactorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9041D325909B1E00305C9A /* ReactorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB9041E725909E5D00305C9A /* ReactorKitRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9041DB25909E5D00305C9A /* ReactorKitRuntime.m */; };
 		DB9041E925909E5D00305C9A /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041DE25909E5D00305C9A /* View.swift */; };
@@ -21,6 +19,8 @@
 		DB9041EF25909E5D00305C9A /* Exports.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041E425909E5D00305C9A /* Exports.swift */; };
 		DB9041F025909E5D00305C9A /* IdentityHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041E525909E5D00305C9A /* IdentityHashable.swift */; };
 		DB9041F125909E5D00305C9A /* IdentityEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9041E625909E5D00305C9A /* IdentityEquatable.swift */; };
+		DBA6778A26C2CDDA00F13983 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA6778926C2CDDA00F13983 /* RxSwift.xcframework */; };
+		DBA6778E26C2CDE200F13983 /* WeakMapTable.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA6778D26C2CDE200F13983 /* WeakMapTable.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +40,8 @@
 		DB9041E425909E5D00305C9A /* Exports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exports.swift; sourceTree = "<group>"; };
 		DB9041E525909E5D00305C9A /* IdentityHashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityHashable.swift; sourceTree = "<group>"; };
 		DB9041E625909E5D00305C9A /* IdentityEquatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityEquatable.swift; sourceTree = "<group>"; };
+		DBA6778926C2CDDA00F13983 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		DBA6778D26C2CDE200F13983 /* WeakMapTable.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WeakMapTable.xcframework; path = Carthage/Build/WeakMapTable.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB76F481258E83A100DD1761 /* RxSwift.framework in Frameworks */,
-				DB76F494258E862E00DD1761 /* WeakMapTable.framework in Frameworks */,
+				DBA6778A26C2CDDA00F13983 /* RxSwift.xcframework in Frameworks */,
+				DBA6778E26C2CDE200F13983 /* WeakMapTable.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,8 @@
 		DB76F43C258E7BA600DD1761 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DBA6778D26C2CDE200F13983 /* WeakMapTable.xcframework */,
+				DBA6778926C2CDDA00F13983 /* RxSwift.xcframework */,
 				DB76F493258E862E00DD1761 /* WeakMapTable.framework */,
 				DB76F480258E83A100DD1761 /* RxSwift.framework */,
 			);
