@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		775E207D27CB6CD600494CF0 /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E207B27CB6CD600494CF0 /* Pulse.swift */; };
+		775E207E27CB6CD600494CF0 /* Reactor+Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E207C27CB6CD600494CF0 /* Reactor+Pulse.swift */; };
 		DB2059DA2649223E008E9ED4 /* ReactorKitRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2059D92649223E008E9ED4 /* ReactorKitRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB9041D425909B1E00305C9A /* ReactorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9041D325909B1E00305C9A /* ReactorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB9041E725909E5D00305C9A /* ReactorKitRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9041DB25909E5D00305C9A /* ReactorKitRuntime.m */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		775E207B27CB6CD600494CF0 /* Pulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
+		775E207C27CB6CD600494CF0 /* Reactor+Pulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reactor+Pulse.swift"; sourceTree = "<group>"; };
 		DB2059D92649223E008E9ED4 /* ReactorKitRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactorKitRuntime.h; sourceTree = "<group>"; };
 		DB76F3FB258E78CA00DD1761 /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB76F3FF258E78CA00DD1761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 		DB9041DD25909E5D00305C9A /* ReactorKit */ = {
 			isa = PBXGroup;
 			children = (
+				775E207B27CB6CD600494CF0 /* Pulse.swift */,
+				775E207C27CB6CD600494CF0 /* Reactor+Pulse.swift */,
 				DB9041DE25909E5D00305C9A /* View.swift */,
 				DB9041DF25909E5D00305C9A /* StateRelay.swift */,
 				DB9041E025909E5D00305C9A /* StoryboardView.swift */,
@@ -215,6 +221,8 @@
 				DB9041E725909E5D00305C9A /* ReactorKitRuntime.m in Sources */,
 				DB9041EC25909E5D00305C9A /* ActionSubject.swift in Sources */,
 				DB9041ED25909E5D00305C9A /* Reactor.swift in Sources */,
+				775E207E27CB6CD600494CF0 /* Reactor+Pulse.swift in Sources */,
+				775E207D27CB6CD600494CF0 /* Pulse.swift in Sources */,
 				DB9041EF25909E5D00305C9A /* Exports.swift in Sources */,
 				DB9041EB25909E5D00305C9A /* StoryboardView.swift in Sources */,
 				DB9041F025909E5D00305C9A /* IdentityHashable.swift in Sources */,
